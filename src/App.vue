@@ -1,13 +1,18 @@
 <template>
-  <div>
+ 
+  <main>
+    main content
+  </main>
+  <footer>
+    footer content
+  </footer>
 
-  </div>
 </template>
 
 <script>
 export default {
   setup () {
-    
+    import header from './components/HeaderApp.vue';
 
     return {}
   }
