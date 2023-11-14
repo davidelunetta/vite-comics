@@ -12,7 +12,7 @@
 <script>
 export default {
   setup () {
-    import header from './components/HeaderApp.vue';
+   
 
     return {}
   }
