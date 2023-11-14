@@ -4,7 +4,7 @@
             <div class="container">
                 <div id="card" v-for="(items, index) in cards" :key="index">
                     <div class="image">
-                        <img :src="items.thumb" alt="">
+                        <img :src="cards.thumb" alt="">
                     </div>
                     <span id="price">{{items.price}}</span>
                     <span>{{items.series}}</span>
@@ -26,5 +26,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/style/main.scss"
+@import "@/assets/style/main.scss"
 </style>
